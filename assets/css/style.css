@@ -1,0 +1,185 @@
+/*universal selector - assigns properties to all elements of the document*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*element selectors - assign properties to everything contained inside an element*/
+
+/*defines background color of the document*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*defines text appearance on header links*/
+a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+/*defines font size for paragraph inside content class*/
+p {
+    font-size: 16px;
+}
+
+/*class selectors - assign properties to all elements associated to a class*/
+/*can be associated to more than one element*/
+
+/*defines header padding, font family, background color and text color inside header element*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*defines header main text appearance*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*defines text color inside span element*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*defines properties inside header div element*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*defines text orientation inside unordered list element*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*defines text apperance and orientation for unordered list lines*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*from this section down consolidated elements to make code easier to navigate*/
+.benefit-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-content h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-content img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*in here removed the class identifier and linked to the element footer  */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
